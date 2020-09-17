@@ -1,6 +1,6 @@
 # Chapter 1 - C++ refresher
 
-You should be familiar with the contents covered in this chapter, which serves as a refresher to the material covered in CodeLab I. If you find yourself struggling with any of the concepts and/or exercises included in this chapter you should make the time to revisit the workbook from CodeLab I, which is included in this repository. A solid understanding of these concepts is essential in order to advance with the concepts introduced in CodeLab II. Don't hesitate to arrange a 1-2-1 tutorial if you are struggling to understand these fundamental programming techniques.
+You should be familiar with the contents covered in this chapter, which serves as a refresher to the material covered in CodeLab I. If you find yourself struggling with any of the concepts and/or exercises included in this chapter you should make the time to revisit the module CodeLab I. A solid understanding of these concepts is essential in order to advance with the concepts introduced in CodeLab II. Don't hesitate to arrange a 1-2-1 tutorial if you are struggling to understand these fundamental programming techniques.
 
 * [The Basics](#the-basics)
    * [Coding Conventions](#coding-conventions)
