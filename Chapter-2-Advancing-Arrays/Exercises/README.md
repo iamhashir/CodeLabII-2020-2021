@@ -9,7 +9,7 @@ Once you have completed your solution you should make sure you commit and push y
 
 ## Exercise 1 - Input Arrays :ballot_box_with_check:
 
-Write a program that requests five numbers from the user and adds these into an array. Once the values have been inputted display them to the user is a nicely formatted list.
+Write a program that requests five numbers from the user and adds these into an array. Once the values have been inputted display them to the user in a nicely formatted list.
 
 #### Extension Problem (Optional):
 
@@ -143,11 +143,11 @@ etc
 
 ## Exercise 10 - Weather Data
 
-Write a program that takes temperature data for the last 7 days for two cities (e.g. Bath and Barcelona) and stores the data into a 2D array. Once the data is inputted do the following:
+Write a program that takes temperature data for the last 7 days for two emirates (e.g. Dubai and Ras Al Khaimah) and stores the data into a 2D array. Once the data is inputted do the following:
 
 * Output the data to the console
-* Display the highest, lowest and average temperature for each city.
-* Display the highest, lowest and average temperature for the cities combined
+* Display the highest, lowest and average temperature for each emirate.
+* Display the highest, lowest and average temperature for the emirates combined
 
 You can use either a built in array or a standard library array for this task. If using a standard library array remember the syntax for declaring a 2D array is:
 
