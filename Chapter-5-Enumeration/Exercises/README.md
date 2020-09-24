@@ -27,4 +27,4 @@ Ask the user to enter a letter W, A, S, D and using an if or switch statement se
 
 ## Exercise 3 - Shop Opening Hours :ballot_box_with_check:
 
-Jake’s Beer Emporium is open Tuesday through Sunday. It opens at 11am each day and closes at 10pm, except on weekends (including Friday) when the shop is open until 11.30pm. Write a program that uses an enum class and switch statement to output the opening hours for the day of the week selected by the user.
+Jake’s Beer Emporium is open Tuesday through Sunday. It opens at 11am each day and closes at 10pm, except on weekends (including Thursday) when the shop is open until 11.30pm. Write a program that uses an enum class and switch statement to output the opening hours for the day of the week selected by the user.
