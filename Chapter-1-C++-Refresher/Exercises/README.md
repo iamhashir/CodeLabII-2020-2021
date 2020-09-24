@@ -51,9 +51,9 @@ Circumference is defined as: ```PI * Radius * 2```
 Write a C++ program to prompt the user to input her/his name, age and hometown and print these details on the screen. The format of text should look like the sample output below but you can only use a **single cout** when outputting the information.
 
 ```
-Your Name is: Jake Hobbs
-Your Age is: 30
-Your Hometown is: Bristol
+Your Name is: Alpha
+Your Age is: 22
+Your Hometown is: Ras Al Khaimah
 ```
 
 &nbsp;
