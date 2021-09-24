@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << endl;
+
+    int triangle = 180;
+    int side1, side2, side3;
+    cout << "Enter the value of 1st side of triangle: ";
+    cin >> side1;
+    cout << "Enter the value of 2nd side of triangle: ";
+    cin >> side2;
+    cout << "Enter the value of 3rd side of triangle: ";
+    cin >> side3;
+
+    if (side1 == side2 && side2 == side3)
+    {
+        cout << "It is a equal triangle";
+    }
+    else if (side1 == side2 || side2 == side3 || side3 == side1)
+    {
+        cout << "It is a isoceless triangle";
+    }
+    else
+    {
+        cout << "It is a scalene triangle";
+    }
+
+    cout << "";
+
+    cout << endl;
+    return 0;
+}
