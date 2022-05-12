@@ -3,7 +3,6 @@ using namespace std;
 
 
 int main(){
-
    int radius;
    float PI = 3.14159;
    

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.js": "javascriptreact",
+        "vector": "cpp",
+        "istream": "cpp",
+        "xtree": "cpp"
+    },
+    "cSpell.words": [
+        "funcitons"
+    ]
+}

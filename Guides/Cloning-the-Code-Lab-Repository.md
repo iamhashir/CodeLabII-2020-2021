@@ -85,7 +85,7 @@ Configure your project settings:
 &nbsp;
 &nbsp;
 
-## Step 7
+## Step 7 
 
 You will be presented with the following screen (Solution Explorer may appear on the left or the right).
 
