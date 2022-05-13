@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
 class Dog
 {
 public:
+// class is made which consist of multiple attributes
     string name;
     string colour;
     int age;
@@ -25,9 +25,8 @@ int main()
     Tony.colour = "White";
     Tony.weight = 24.6;
     Tony.age = 10;
-
+    // dog is now called through its attributes to perform functions
     Tony.Woof();
     Tony.print_Characteristics();
-
     return 0;
 }

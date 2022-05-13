@@ -9,11 +9,11 @@ int main()
     vector<string> values;
 
     values = {"eggs","milk","sugar","chocolate","flour"};
+    // values of the vector is being printed through loop
     for (int i = 0; i < values.size(); i++)
     {
         cout<<values[i]<<endl;
     }
-    //Part 2
 
     
     cout << endl;

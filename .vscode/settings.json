@@ -4,9 +4,12 @@
         "*.js": "javascriptreact",
         "vector": "cpp",
         "istream": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "xlocale": "cpp",
+        "xstring": "cpp"
     },
     "cSpell.words": [
-        "funcitons"
+        "funcitons",
+        "nump"
     ]
 }

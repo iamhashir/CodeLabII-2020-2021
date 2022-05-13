@@ -7,6 +7,7 @@ int main()
     cout << endl;
     cout << "";
     int studentId;
+    // map is initialised so that the name of student appears by selceting id
     map<int, string> students{
         {1, "Hashir"},
         {2, "Ahmed"},

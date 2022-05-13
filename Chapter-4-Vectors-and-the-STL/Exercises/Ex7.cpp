@@ -8,7 +8,9 @@ int main()
     cout << endl;
     cout << "";
     
+// pair is assigned here
     pair<string, int> football;
+// tuple is assigned here
     tuple<string, double, int> temp;
 
     temp = make_tuple("Abu dhabi", 20.1, 3);

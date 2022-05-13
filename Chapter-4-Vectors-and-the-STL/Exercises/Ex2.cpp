@@ -36,43 +36,59 @@ int main()
     values.resize(20);
 
     // PART 5
+    print_vector(values, 20);
+
+    // PART 6
 
     cout << "The new values of vector length 20 are: \n\n";
 
+    // part 7
     print_vector(values, 20);
 
+    // part 8
     for (int i = 10; i < 20; i++)
     {
 
         values[i] = i + 1;
     }
 
-    cout << "The new assigned values of vector length 20 are: \n\n";
+    cout << "The new assigned values of vector length 10 are: \n\n";
 
+    // part 9
     print_vector(values, values.size());
+
+    // native vector functions are used
+
+    // part 10
     values.push_back(12);
     values.push_back(24);
     cout << "\n\npushed back elements are: ";
 
+    // vector is printed through a function which just uses loop to print items
+
+    // part 11
     print_vector(values, values.size());
 
+    // part 12
     values.pop_back();
     values.pop_back();
     cout << "Values after poping out: ";
     print_vector(values, values.size());
 
+    // part 11
     cout << endl;
     cout << values[0];
     cout << endl;
     cout << values[19];
 
+    // part 12
     values.clear();
 
     cout << "\nValues after clearing out: ";
-
-    cout<<values.size();
-
-    cout<<values.empty();
+    // part 13
+    cout << values.size();
+    // part 14
+    cout << values.empty();
 
     return 0;
 }

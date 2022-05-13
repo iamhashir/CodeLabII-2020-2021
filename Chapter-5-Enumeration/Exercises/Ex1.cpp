@@ -5,7 +5,7 @@ int main()
 {
     cout << endl;
     cout << "";
-
+    // enum set of values is assigned here
     enum weapons
     {
         Fists,
@@ -13,6 +13,7 @@ int main()
         Sword,
         Gun
     };
+    // enum weapens object is created named fist
     weapons fist = Fists;
 
     cout << endl;

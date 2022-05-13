@@ -7,6 +7,7 @@ int main()
 
     int num1;
     int num2;
+    // the number is now taken as an input from the user to get the desired result
     cout << "Enter num1: ";
     cin >> num1;
     cout << "Enter num2: ";
@@ -16,6 +17,7 @@ int main()
     cout << "x value\t"
          << " y value"
          << "  results" << endl;
+        //  All mathematical operations ar e performed over here
     cout << "  "<<num1 << "\t  " <<num2 << "\t    "<< num1 + num2 << endl;
     cout << "  "<<num1 << "\t  " <<num2 << "\t    "<<num1 - num2 << endl;
     cout << "  "<<num1 << "\t  " <<num2 << "\t    "<< num1 * num2 << endl;

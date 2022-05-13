@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
-
-class Data
-{
+class Data {
 private:
     int num1;
     int num2;
+
 public:
     Data()
     {
@@ -13,6 +12,7 @@ public:
         cin >> num1;
         cout << "Enter num2: ";
         cin >> num2;
+        cout << "The sum is: " << endl;
         cout << num1 + num2;
     }
 };
@@ -23,6 +23,6 @@ int main()
     cout << "";
 
     Data Sum;
-    cout << endl;
+    cout<<endl;
     return 0;
 }

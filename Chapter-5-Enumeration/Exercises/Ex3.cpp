@@ -16,13 +16,15 @@ int main()
         Friday,
         Saturday
     };
+    // weekend day is get from the user
     cout<<"Enter a weekend number from 1~~7: ";
     cout<<endl;
     int input;
     cin >> input;
+    // after getting input enum object is initialised
     Direction direction ;
     cout<<endl;
-
+// switch statement is used to switch between inputs to get specific results
     switch (input)
     {
     case Sunday:

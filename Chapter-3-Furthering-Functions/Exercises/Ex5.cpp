@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+// seprate functions are defined over here which serves specific Arthematic purposes
 
 int Add(int num1, int num2)
 {
@@ -9,6 +11,7 @@ int Subtract(int num1, int num2)
 {
     return num1 - num2;
 }
+// in these functions the numbers are taken as parameters from the main functions passed by the user
 int Multiply(int num1, int num2)
 {
     return num1 * num2;
@@ -21,6 +24,7 @@ int Modulus(int num1, int num2)
 {
     return num1 % num2;
 }
+// seprate function is created to complete a purpose of displaying menu over screen
 void menu()
 {
     cout << "\n1): Add\n";
@@ -34,6 +38,7 @@ int main()
     cout << endl;
     cout << "";
     int operation, num1, num2;
+// c++ goto statment is used to serve as a shorthand for looping the same thing if user answered yes
 loop:
     menu();
 
@@ -68,12 +73,10 @@ loop:
     default:
         break;
     }
-
     char loop;
-
     cout << "Do you want to calculate again: ";
     cin >> loop;
-
+// c++ goto statment is used to serve as a shorthand for loop
     if (loop == 'Y' || loop == 'y')
     {
         goto loop;
@@ -83,7 +86,6 @@ loop:
         cout<<"\nThanks for using this calculator\n";
         return 0;
     }
-
     cout << endl;
     return 0;
 }

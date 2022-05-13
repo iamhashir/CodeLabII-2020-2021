@@ -9,6 +9,7 @@ int main(){
     cout<< "" ;
     ifstream inF("randomStrings.txt");
         int data1=0;
+        // all the data inside the file is getting counted
     if (inF.is_open())
     {
         string data;
@@ -19,6 +20,6 @@ int main(){
         }
         inF.close();
     }
-    cout<<data1<<endl;
+    cout<<"the total lines are: "<<data1<<endl;
 return 0;
 }

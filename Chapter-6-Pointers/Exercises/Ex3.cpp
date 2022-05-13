@@ -8,6 +8,8 @@ int main()
     int num = 5;
     string word = "hash";
     int *nump = &num;
+    
+    // memories are getting allocated here
     string *wordp = &word;
     cout << nump;
     cout << endl;

@@ -14,19 +14,20 @@ public:
     };
     void display()
     {
-        cout << " The student's name is: " << Name << "The average marks are: " << calcGrade() << endl;
+        cout << " The student's name is: " << Name <<endl << "The average marks are: " << calcGrade() << endl;
     };
 };
 int main()
 {
     Students Hashir;
+    cout<<"Enter student name: ";
     cin>>Hashir.Name;
+    cout<<"Enter student marks1: ";
     cin>>Hashir.Mark1;
+    cout<<"Enter student marks2: ";
     cin>>Hashir.Mark2;
+    cout<<"Enter student marks3: ";
     cin>>Hashir.Mark3;
-
     Hashir.calcGrade();
     Hashir.display();
-
-
 }

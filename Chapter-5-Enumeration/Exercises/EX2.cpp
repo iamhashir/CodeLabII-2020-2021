@@ -1,36 +1,10 @@
-// #include <iostream>
-// using namespace std;
-
-// int main()
-// {
-//     enum Direction
-//     {
-//         North,
-//         South
-//     };
-//     Direction direction = North;
-//     switch (direction)
-//     {
-//     case North:
-//         cout << "Direction is North";
-//         break;
-//     case South:
-//         cout << "Direction is South";
-//         break;
-//     default:
-//         cout << "Direction can be either North or South";
-//     }
-//     return 0;
-// }
-
 #include <iostream>
 using namespace std;
-
 int main()
 {
     cout << endl;
     cout << "";
-
+    // enum is created to assign values
     enum Direction
     {
         Up,
@@ -38,11 +12,13 @@ int main()
         Right,
         Left
     };
-
     char input;
-    cin >> input;
-        
+    cin >> input;        
+    // object direction is created
     Direction direction = Up;
+    
+    // input by the user is checked in these if statements
+
     if (input == 'W' ||input == 'w')
     {
         direction = Up;
@@ -55,11 +31,11 @@ int main()
     {
         direction = Down;
     }
-
     if (input == 'D' ||input == 'd')
     {
         direction = Right;
     }
+    // switch cases is used to mention the direction 
     switch (direction)
     {
     case Up:

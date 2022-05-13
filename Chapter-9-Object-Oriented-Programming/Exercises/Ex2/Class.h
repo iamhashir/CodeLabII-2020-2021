@@ -16,7 +16,8 @@ public:
     void sayHello();
     void makeNoise();
     void animalDetails();
-
+    // constructor
     Animal();
+    // destructor
     ~Animal();
 };

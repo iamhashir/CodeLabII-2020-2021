@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
 
-
-int main(){
+int main()
+{
     int num;
-    int *nump=&num;
-    
-    cin>>num;
+    // nump is pointer pointing towards num is memory address
+    int *nump = &num;
 
-    cout << "\t" << num << "\t" << &num << "\t"<<*nump;
+    cin >> num;
+    // the values are prnted here
+    cout << "\t" << num << "\t" << &num << "\t" << *nump;
 
-    cout<<endl;
-    cout<< "" ;
+    cout << endl;
+    cout << "";
 
-    cout<<endl;
-return 0;
+    cout << endl;
+    return 0;
 }
